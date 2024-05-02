@@ -18,12 +18,12 @@
 <body>
     <!-- header -->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav-logo">
+        <div class="nav container">
+            <h1 class="nav-logo">
                 <i class="ph ph-leaf nav-logo-icon"></i> Bonzai
-            </a>
+            </h1>
 
-            <div class="nav-menu" id="nav-menu">
+            <nav class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Home</a>
@@ -36,84 +36,80 @@
                 <button class="nav-close" id="nav-close">
                     <i class="ph ph-x"></i>
                 </button>
-            </div>
+            </nav>
 
             <button class="nav-toggle" id="nav-toggle">
                 <i class="ph ph-list"></i>
             </button>
-        </nav>
+        </div>
     </header>
 
     <main class="main">
         <!-- home -->
-        <article class="home" id="home">
-            <div class="home-container container grid">
-                <img src="assets/img/hero.png" alt="" class="home-img">
+        <article class="home-container container grid" id="home">
+            <img src="assets/img/hero.png" alt="" class="home-img">
 
-                <section class="home-data">
-                    <h1 class="home-title">
-                        The living art <br> of bonsai
-                    </h1>
-                    <p class="home-description">
-                        They're not just trees, they are a challenge, a call
-                        for you to reorient your relationship with nature.
-                    </p>
-                    <a href="#about" class="button button-flex">
-                        Explore <i class="ph ph-arrow-down-right button-icon"></i>
-                    </a>
-                </section>
-            </div>
+            <section class="home-data">
+                <h1 class="home-title">
+                    The living art <br> of bonsai
+                </h1>
+                <p class="home-description">
+                    They're not just trees, they are a challenge, a call
+                    for you to reorient your relationship with nature.
+                </p>
+                <a href="#about" class="button button-flex">
+                    Explore <i class="ph ph-arrow-down-right button-icon"></i>
+                </a>
+            </section>
         </article>
 
         <!-- about -->
-        <aside class="about section container" id="about">
-            <div class="about-container grid">
-                <img src="assets/img/about.png" alt="" class="about-img">
+        <aside class="about-container section container grid" id="about">
+            <img src="assets/img/about.png" alt="" class="about-img">
 
-                <section class="about-data">
-                    <h2 class="section-title about-title">
-                        Who we really are & <br> why choose us
-                    </h2>
+            <section class="about-data">
+                <h2 class="section-title about-title">
+                    Who we really are & <br> why choose us
+                </h2>
 
-                    <p class="about-description">
-                        We educate bonsai creators, we curate bonsai artistry,
-                        and we create trees that connect you. 
+                <p class="about-description">
+                    We educate bonsai creators, we curate bonsai artistry,
+                    and we create trees that connect you. 
+                </p>
+
+                <div class="about-details">
+                    <p class="about-details-description">
+                        <i class="ph-fill ph-check-square about-details-icon"></i>
+                        We always deliver on time.
                     </p>
+                    <p class="about-details-description">
+                        <i class="ph-fill ph-check-square about-details-icon"></i>
+                        We give you guides to protect and care for your plants.
+                    </p>
+                    <p class="about-details-description">
+                        <i class="ph-fill ph-check-square about-details-icon"></i>
+                        We always come over for a check-up after sale.
+                    </p>
+                    <p class="about-details-description">
+                        <i class="ph-fill ph-check-square about-details-icon"></i>
+                        100% money back guaranteed.
+                    </p>
+                </div>
 
-                    <div class="about-details">
-                        <p class="about-details-description">
-                            <i class="ph-fill ph-check-square about-details-icon"></i>
-                            We always deliver on time.
-                        </p>
-                        <p class="about-details-description">
-                            <i class="ph-fill ph-check-square about-details-icon"></i>
-                            We give you guides to protect and care for your plants.
-                        </p>
-                        <p class="about-details-description">
-                            <i class="ph-fill ph-check-square about-details-icon"></i>
-                            We always come over for a check-up after sale.
-                        </p>
-                        <p class="about-details-description">
-                            <i class="ph-fill ph-check-square about-details-icon"></i>
-                            100% money back guaranteed.
-                        </p>
-                    </div>
-
-                    <a href="#" class="button-link button-flex">
-                        Shop Now <i class="ph ph-arrow-down-right button-icon"></i>
-                    </a>
-                </section>
-            </div>
+                <a href="#" class="button-link button-flex">
+                    Shop Now <i class="ph ph-arrow-down-right button-icon"></i>
+                </a>
+            </section>
         </aside>
     </main>
 
     <!-- footer -->
     <footer class="footer section">
         <div class="footer-container container grid">
-            <div class="footer-content">
-                <a href="#" class="footer-logo">
+            <section class="footer-content">
+                <h1 class="footer-logo">
                     <i class="ph ph-leaf footer-logo-icon"></i> Bonzai
-                </a>
+                </h1>
 
                 <h3 class="footer-title">
                     Subscribe to our newsletter <br> to stay update
@@ -127,9 +123,9 @@
                         <i class="ph ph-arrow-up-right button-icon"></i>
                     </button>
                 </div>
-            </div>
+            </section>
 
-            <div class="footer-content">
+            <section class="footer-content">
                 <h3 class="footer-title">Our Address</h3>
 
                 <ul class="footer-data">
@@ -137,9 +133,9 @@
                     <li class="footer-information">Surabaya - 43210</li>
                     <li class="footer-information">123-456-789</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="footer-content">
+            <section class="footer-content">
                 <h3 class="footer-title">Contact Us</h3>
 
                 <ul class="footer-data">
@@ -157,7 +153,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </div>
 
         <p class="footer-copy">&#169; Copyleft <span id="year"></span>. All rigths reserved</p>
