@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+
+    <!-- phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Bonzai</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <i class="ph ph-leaf nav-logo-icon"></i> Bonzai
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                </ul>
+
+                <button class="nav-close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle">
+                <i class="ph ph-list"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- home -->
+        <article class="home" id="home">
+            <div class="home-container container grid">
+                <img src="assets/img/hero.png" alt="" class="home-img">
+
+                <section class="home-data">
+                    <h1 class="home-title">
+                        The living art <br> of bonsai
+                    </h1>
+                    <p class="home-description">
+                        They're not just trees, they are a challenge, a call
+                        for you to reorient your relationship with nature.
+                    </p>
+                    <a href="#about" class="button button-flex">
+                        Explore <i class="ph ph-arrow-down-right button-icon"></i>
+                    </a>
+                </section>
+            </div>
+        </article>
+
+        <!-- about -->
+        <aside class="about section container" id="about">
+            <div class="about-container grid">
+                <img src="assets/img/about.png" alt="" class="about-img">
+
+                <section class="about-data">
+                    <h2 class="section-title about-title">
+                        Who we really are & <br> why choose us
+                    </h2>
+
+                    <p class="about-description">
+                        We educate bonsai creators, we curate bonsai artistry,
+                        and we create trees that connect you. 
+                    </p>
+
+                    <div class="about-details">
+                        <p class="about-details-description">
+                            <i class="ph-fill ph-check-square about-details-icon"></i>
+                            We always deliver on time.
+                        </p>
+                        <p class="about-details-description">
+                            <i class="ph-fill ph-check-square about-details-icon"></i>
+                            We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="about-details-description">
+                            <i class="ph-fill ph-check-square about-details-icon"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="about-details-description">
+                            <i class="ph-fill ph-check-square about-details-icon"></i>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button-link button-flex">
+                        Shop Now <i class="ph ph-arrow-down-right button-icon"></i>
+                    </a>
+                </section>
+            </div>
+        </aside>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    <i class="ph ph-leaf footer-logo-icon"></i> Bonzai
+                </a>
+
+                <h3 class="footer-title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
+
+                <div class="footer-subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer-input">
+
+                    <button class="button button-flex footer-button">
+                        Subscribe
+                        <i class="ph ph-arrow-up-right button-icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Our Address</h3>
+
+                <ul class="footer-data">
+                    <li class="footer-information">1234 - East Java</li>
+                    <li class="footer-information">Surabaya - 43210</li>
+                    <li class="footer-information">123-456-789</li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contact Us</h3>
+
+                <ul class="footer-data">
+                    <li class="footer-information">+623 456 789</li>
+                    
+                    <li class="footer-social">
+                        <a href="#" class="footer-social-link">
+                            <i class="ph-fill ph-facebook-logo"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="ph ph-instagram-logo"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="ph-fill ph-twitter-logo"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer-copy">&#169; Copyleft <span id="year"></span>. All rigths reserved</p>
+    </footer>
+
+    <!-- scroll up -->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ph ph-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- js -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
